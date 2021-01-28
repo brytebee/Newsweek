@@ -1,54 +1,53 @@
-
 /* Newsweek background colors */
 .bg-red {
-    background-color: #ff0500;
+  background-color: #ff0500;
 }
 
 .bg-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .bg-black {
-    background-color: #000;
+  background-color: #000;
 }
 
 .bg-yellow {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 /* Newsweek font colors */
 .color-red {
-    color: #ff0500;
+  color: #ff0500;
 }
 
 .color-white {
-    color: #fff;
+  color: #fff;
 }
 
 .color-black {
-    color: #000;
+  color: #000;
 }
 
 .color-arsh {
-    color: rgb(80, 85, 92);
+  color: rgb(80, 85, 92);
 }
 
 .header {
-    font-family: 'Fraunces', serif;
-    font-weight: bolder;
-    letter-spacing: -1.5px;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  letter-spacing: -1.5px;
 }
 
 .fa-user {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .round {
-    border-radius: .7rem;
-    padding: 0 0.5rem;
-    font-size: 0.9rem;
+  border-radius: 0.7rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
 }
 
 .font-size-smallest {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
