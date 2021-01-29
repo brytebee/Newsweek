@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;;
+}
+
 /* Newsweek background colors */
 .bg-red {
   background-color: #ff0500;
@@ -13,6 +17,14 @@
 
 .bg-yellow {
   background-color: yellow;
+}
+
+.bg-lighterarsh {
+  background-color: rgba(255,255,255,.9);
+}
+
+.bg-arsh {
+  background-color:  rgb(181, 204, 235);;
 }
 
 /* Newsweek font colors */
@@ -50,4 +62,39 @@
 
 .font-size-smallest {
   font-size: 0.95rem;
+}
+
+.category-wrap {
+  position: relative;
+}
+
+.category {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 8px 15px 9px;
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  opacity: .8;
+  text-transform: uppercase;
+}
+
+.title {
+ font-size: 20px;
+}
+
+.summary {
+  font-size: 13px;
+}
+
+.card-1 {
+  padding:1rem;
+  margin-bottom: 2rem;
+}
+
+.category-title {
+  font-weight: 700;
 }
