@@ -1,8 +1,9 @@
 body {
-  font-family: "Roboto Condensed", sans-serif;;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Newsweek background colors */
+
 .bg-red {
   background-color: #ff0500;
 }
@@ -20,14 +21,15 @@ body {
 }
 
 .bg-lighterarsh {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .bg-arsh {
-  background-color:  rgb(181, 204, 235);;
+  background-color: rgb(181, 204, 235);
 }
 
 /* Newsweek font colors */
+
 .color-red {
   color: #ff0500;
 }
@@ -78,12 +80,12 @@ body {
   margin-bottom: 0;
   font-size: 1.05rem;
   font-weight: 700;
-  opacity: .8;
+  opacity: 0.8;
   text-transform: uppercase;
 }
 
 .title {
- font-size: 20px;
+  font-size: 20px;
 }
 
 .summary {
@@ -91,7 +93,7 @@ body {
 }
 
 .card-1 {
-  padding:1rem;
+  padding: 1rem;
   margin-bottom: 2rem;
 }
 
