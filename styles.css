@@ -2,6 +2,16 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Newsweek background colors */
 
 .bg-red {
@@ -66,10 +76,6 @@ body {
   font-size: 0.95rem;
 }
 
-.category-wrap {
-  position: relative;
-}
-
 .category {
   display: block;
   position: absolute;
@@ -80,7 +86,16 @@ body {
   margin-bottom: 0;
   font-size: 1.05rem;
   font-weight: 700;
-  opacity: 0.8;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+.category-wrap {
+  position: relative;
+}
+
+.category-title {
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -92,11 +107,47 @@ body {
   font-size: 13px;
 }
 
+.opinion-author {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.opinion-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.opinion-img2,
+.opinion-text1 {
+    float: right;
+}
+
+.opinion-img1,
+.opinion-text2 {
+    text-align: left;
+}
+
+.opinion-img2 {
+  width: 65px;;
+}
+
+.opinion-hr {
+  border: solid rgb(80, 85, 92) 4px;
+  position: relative;
+  border-bottom: none;
+  color: #fff;
+}
+
 .card-1 {
   padding: 1rem;
   margin-bottom: 2rem;
 }
 
-.category-title {
-  font-weight: 700;
+.vs-opinion {
+  position: absolute;
+  width: 33px;
+  text-align: center;
+  top: 52%;
+  left: 50%;
 }
