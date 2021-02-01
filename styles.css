@@ -95,7 +95,7 @@ a:hover {
 }
 
 .category-title {
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -107,32 +107,33 @@ a:hover {
   font-size: 13px;
 }
 
-.opinion-author {
+/* The Debate Card */
+.debate-author {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.opinion-title {
-    font-size: 17px;
-    font-weight: 700;
+.debate-title {
+  font-size: 17px;
+  font-weight: 700;
 }
 
-.opinion-img2,
-.opinion-text1 {
-    float: right;
+.debate-img2,
+.debate-text1 {
+  float: right;
 }
 
-.opinion-img1,
-.opinion-text2 {
-    text-align: left;
+.debate-img1,
+.debate-text2 {
+  text-align: left;
 }
 
-.opinion-img2 {
-  width: 65px;;
+.debate-img2 {
+  width: 65px;
 }
 
-.opinion-hr {
+.debate-hr {
   border: solid rgb(80, 85, 92) 4px;
   position: relative;
   border-bottom: none;
@@ -144,10 +145,15 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.vs-opinion {
+.vs-debate {
   position: absolute;
   width: 33px;
   text-align: center;
   top: 52%;
   left: 50%;
+}
+
+/* The Opinion Card */
+.opinion-wrap {
+  border-bottom: 0.5px solid rgb(181, 204, 235);
 }
